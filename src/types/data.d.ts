@@ -13,4 +13,8 @@ type SearchResultItemType = {
     link: string;
     htmlSnippet: string;
     formattedUrl: string;
+    displayLink: string;
+    image?: {
+        contextLink: string;
+    };
 };
