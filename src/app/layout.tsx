@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Google Clone Next js 13",
     description: "Google clone created with Next js 13",
+    icons: {
+        icon: "/favicon.svg",
+    },
 };
 
 export default function RootLayout({
@@ -17,7 +20,6 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <link rel="icon" href="./favicon.svg" />
             <body className={inter.className}>
                 {children}
                 {/* footer */}
